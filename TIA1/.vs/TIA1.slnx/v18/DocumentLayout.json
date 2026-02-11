@@ -3,19 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\tia1\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|solutionrelative:frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\tia1\\frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|solutionrelative:frmadminseguridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\tia1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\tia1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC0CC1E2-AD2D-4B57-B61A-A5EA94B398E8}|TIA1.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,52 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmAdminseguridad.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmAdminseguridad.cs",
-              "RelativeDocumentMoniker": "frmAdminseguridad.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmAdminseguridad.cs",
-              "RelativeToolTip": "frmAdminseguridad.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:34:37.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAdminseguridad.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmAdminseguridad.cs",
-              "RelativeDocumentMoniker": "frmAdminseguridad.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmAdminseguridad.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmAdminseguridad.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:28:08.629Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmPrincipal.cs",
-              "RelativeToolTip": "frmPrincipal.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAQwFwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:26:07.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "frmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "frmPrincipal.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:26:00.19Z",
+              "WhenOpened": "2026-02-11T00:24:41.813Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\TIA1\\frmPrincipal.cs",
+              "RelativeToolTip": "frmPrincipal.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowD0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T23:12:04.715Z"
             }
           ]
         }
