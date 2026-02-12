@@ -26,7 +26,40 @@ namespace DataBase
 
         private void button3_Click(object sender, EventArgs e)
         {
+            int PersonID;
+            string LastName, FirstName;
 
+            PersonID = Convert.ToInt32(txtPersonID.Text);
+            LastName = txtLastName.Text;
+            FirstName = txtFirstName.Text;
+
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=miBaseDeDatos;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;";
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "DELETE FROM Person WHERE PersonID = @PersonID";
+                    using (SqlCommand cmd = new SqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@PersonID", PersonID);
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Datos eliminados correctamente.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se encontró el registro para eliminar.");
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Error al eliminar datos: " + ex.Message);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -124,5 +157,83 @@ namespace DataBase
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            int PersonID;
+            string LastName, FirstName;
+
+            PersonID = Convert.ToInt32(txtPersonID.Text);
+            LastName = txtLastName.Text;
+            FirstName = txtFirstName.Text;
+
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=miBaseDeDatos;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;";
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "UPDATE Person SET LastName = @LastName, FirstName = @FirstName WHERE PersonID = @PersonID";
+                    using (SqlCommand cmd = new SqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@PersonID", PersonID);
+                        cmd.Parameters.AddWithValue("@LastName", LastName);
+                        cmd.Parameters.AddWithValue("@FirstName", FirstName);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Datos actualizados correctamente.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se encontró el registro para actualizar.");
+                        }
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Error al actualizar datos: " + ex.Message);
+            }
+        }
+
+        private void btnClean_Click(object sender, EventArgs e)
+        {
+            txtPersonID.Clear();
+            txtLastName.Clear();
+            txtFirstName.Clear();
+        }
+
+        private void AllView_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=miBaseDeDatos;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;";
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT * FROM Person";
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
+                    {
+                        DataTable resultadoTable = new DataTable();
+                        adapter.Fill(resultadoTable);
+                        dgvPersons.DataSource = resultadoTable;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Error al buscar datos: " + ex.Message);
+            }
+        }
     }
 }
+    

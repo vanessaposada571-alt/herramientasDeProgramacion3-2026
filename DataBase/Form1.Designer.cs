@@ -72,6 +72,7 @@
             this.btnUpdate.TabIndex = 2;
             this.btnUpdate.Text = "Actualizar";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -101,6 +102,7 @@
             this.btnClean.TabIndex = 5;
             this.btnClean.Text = "Limpiar";
             this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // AllView
             // 
@@ -110,6 +112,7 @@
             this.AllView.TabIndex = 6;
             this.AllView.Text = "Ver todos";
             this.AllView.UseVisualStyleBackColor = true;
+            this.AllView.Click += new System.EventHandler(this.AllView_Click);
             // 
             // txtPersonID
             // 
@@ -182,6 +185,7 @@
             this.Controls.Add(this.dgvPersons);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersons)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
