@@ -1,0 +1,6 @@
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_De_Datos\bin\Debug\Capa_De_Datos.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_De_Datos\bin\Debug\Capa_De_Datos.pdb
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_De_Datos\obj\Debug\Capa_De_Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_De_Datos\obj\Debug\Capa_De_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_De_Datos\obj\Debug\Capa_De_Datos.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_De_Datos\obj\Debug\Capa_De_Datos.pdb

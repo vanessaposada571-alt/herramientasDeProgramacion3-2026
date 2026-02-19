@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8942E5-B1AA-4810-B9D7-E4D7256AC78D}|..\\Capa_De_Datos\\Capa_De_Datos.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_de_datos\\dalconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Their2.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Their2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8942E5-B1AA-4810-B9D7-E4D7256AC78D}|..\\Capa_De_Datos\\Capa_De_Datos.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_de_datos\\dalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E58E914-98F1-457B-A5F3-BEB99FB6D268}|..\\Capa_Negocio\\Capa_Negocio.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_negocio\\bllusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA8942E5-B1AA-4810-B9D7-E4D7256AC78D}|..\\Capa_De_Datos\\Capa_De_Datos.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_de_datos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E58E914-98F1-457B-A5F3-BEB99FB6D268}|..\\Capa_Negocio\\Capa_Negocio.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_negocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DALUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALUsuario.cs",
+              "RelativeDocumentMoniker": "..\\Capa_De_Datos\\DALUsuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALUsuario.cs",
+              "RelativeToolTip": "..\\Capa_De_Datos\\DALUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:23:24.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DALConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALConexion.cs",
+              "RelativeDocumentMoniker": "..\\Capa_De_Datos\\DALConexion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALConexion.cs",
+              "RelativeToolTip": "..\\Capa_De_Datos\\DALConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:19:05.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BLLUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_Negocio\\BLLUsuario.cs",
+              "RelativeDocumentMoniker": "..\\Capa_Negocio\\BLLUsuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_Negocio\\BLLUsuario.cs",
+              "RelativeToolTip": "..\\Capa_Negocio\\BLLUsuario.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:17:59.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Capa_De_Datos\\Class1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\Class1.cs",
+              "RelativeToolTip": "..\\Capa_De_Datos\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:14:08.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_Negocio\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Capa_Negocio\\Class1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_Negocio\\Class1.cs",
+              "RelativeToolTip": "..\\Capa_Negocio\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:13:12.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:05:33.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:04:37.78Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\bin\Debug\Capa_De_Datos.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\bin\Debug\Capa_De_Datos.pdb
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\obj\Debug\Capa_Neg.64FC8661.Up2Date
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

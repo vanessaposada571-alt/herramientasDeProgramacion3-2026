@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Capa_De_Datos/Capa_De_Datos.csproj" />
+  <Project Path="../Capa_Negocio/Capa_Negocio.csproj" />
+  <Project Path="Capa_Presentacion.csproj" />
+</Solution>

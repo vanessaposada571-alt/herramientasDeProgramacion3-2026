@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Their2.exe.config
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Their2.exe
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Their2.pdb
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Capa_Negocio.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Capa_De_Datos.dll
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Capa_Negocio.pdb
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\bin\Debug\Capa_De_Datos.pdb
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Capa_Presentacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Their2.Form1.resources
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Their2.Properties.Resources.resources
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Capa_Presentacion.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Capa_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Capa_Pre.6F14CCC0.Up2Date
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Their2.exe
+C:\Users\Usuario\Documents\herramientasDeProgramacion3-2026\Their2\obj\Debug\Their2.pdb
