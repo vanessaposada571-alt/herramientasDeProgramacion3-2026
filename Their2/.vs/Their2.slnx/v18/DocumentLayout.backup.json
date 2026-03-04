@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA8942E5-B1AA-4810-B9D7-E4D7256AC78D}|..\\Capa_De_Datos\\Capa_De_Datos.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_de_datos\\dalconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Their2.csproj|C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Their2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Capa_Presentacion.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Their2.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\their2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEBFA379-0FCB-4C2C-AE0D-A599A8C84FED}|Their2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CA8942E5-B1AA-4810-B9D7-E4D7256AC78D}|..\\Capa_De_Datos\\Capa_De_Datos.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_de_datos\\dalconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA8942E5-B1AA-4810-B9D7-E4D7256AC78D}|..\\Capa_De_Datos\\Capa_De_Datos.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\capa_de_datos\\dalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -33,11 +37,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:45:58.726Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DALUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALUsuario.cs",
               "RelativeDocumentMoniker": "..\\Capa_De_Datos\\DALUsuario.cs",
@@ -45,25 +61,23 @@
               "RelativeToolTip": "..\\Capa_De_Datos\\DALUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:23:24.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T23:23:24.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DALConexion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALConexion.cs",
               "RelativeDocumentMoniker": "..\\Capa_De_Datos\\DALConexion.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\DALConexion.cs",
               "RelativeToolTip": "..\\Capa_De_Datos\\DALConexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:19:05.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T23:19:05.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BLLUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_Negocio\\BLLUsuario.cs",
               "RelativeDocumentMoniker": "..\\Capa_Negocio\\BLLUsuario.cs",
@@ -71,12 +85,11 @@
               "RelativeToolTip": "..\\Capa_Negocio\\BLLUsuario.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:17:59.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T23:17:59.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_De_Datos\\Class1.cs",
               "RelativeDocumentMoniker": "..\\Capa_De_Datos\\Class1.cs",
@@ -84,12 +97,11 @@
               "RelativeToolTip": "..\\Capa_De_Datos\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:14:08.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T23:14:08.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Capa_Negocio\\Class1.cs",
               "RelativeDocumentMoniker": "..\\Capa_Negocio\\Class1.cs",
@@ -97,12 +109,11 @@
               "RelativeToolTip": "..\\Capa_Negocio\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:13:12.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T23:13:12.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -110,20 +121,18 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:05:33.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T23:05:33.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\Their2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:04:37.78Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-02-19T23:04:37.78Z"
             }
           ]
         }

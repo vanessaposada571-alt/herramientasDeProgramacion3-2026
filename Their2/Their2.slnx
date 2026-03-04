@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="../Capa_De_Datos/Capa_De_Datos.csproj" />
-  <Project Path="../Capa_Negocio/Capa_Negocio.csproj" />
-  <Project Path="Capa_Presentacion.csproj" />
+  <Project Path="../Capa_De_Datos/Capa_De_Datos.csproj" Id="ca8942e5-b1aa-4810-b9d7-e4d7256ac78d" />
+  <Project Path="../Capa_Negocio/Capa_Negocio.csproj" Id="8e58e914-98f1-457b-a5f3-beb99fb6d268" />
+  <Project Path="Capa_Presentacion.csproj" Id="cebfa379-0fcb-4c2c-ae0d-a599a8c84fed" />
 </Solution>
