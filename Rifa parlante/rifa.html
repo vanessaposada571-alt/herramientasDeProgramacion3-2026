@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gran Rifa - QSC K 8.2</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #0b132b;
+    --card-bg: #1c2541;
+    --accent: #f5a623; 
+    --text-light: #ffffff;
+    --sold-bg: #e63946; 
+  }
+  body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: var(--bg-dark); 
+    color: var(--text-light);
+    margin: 0; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: center;
+  }
+  .app-container {
+    background: var(--card-bg); 
+    max-width: 900px; 
+    width: 100%; 
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    background: #0b132b;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #3a506b;
+  }
+  .header-img {
+    width: 140px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    border: 2px solid var(--accent);
+  }
+  .header-text {
+    text-align: left;
+  }
+  .header-text h1 { margin: 0; font-size: 28px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;}
+  .header-text h2 { margin: 5px 0; font-size: 22px; color: var(--accent); font-weight: 700; }
+  .header-text p { margin: 5px 0 0; font-size: 14px; color: #a1b0c6; }
+  
+  .instrucciones {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #a1b0c6;
+  }
+
+  /* Grid de 10 columnas */
+  .grid { 
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr); 
+    gap: 8px; 
+  }
+  
+  .numero { 
+    background-color: #3a506b; 
+    border-radius: 6px; 
+    font-weight: 700; 
+    font-size: 16px; 
+    color: var(--text-light); 
+    text-align: center;
+    cursor: pointer; 
+    transition: all 0.2s ease;
+    border: 1px solid #5bc0be;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  .numero:hover { 
+    background-color: var(--accent); 
+    color: #0b132b;
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  
+  .tachado { 
+    background-color: var(--sold-bg); 
+    border-color: var(--sold-bg); 
+    color: white; 
+    font-size: 11px; 
+    cursor: not-allowed;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.3);
+  }
+  .tachado:hover { 
+    transform: none; 
+    background-color: var(--sold-bg); 
+    color: white;
+  }
+  .num-grande { font-size: 14px; text-decoration: line-through; margin-bottom: 2px;}
+  .nombre-comprador { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 0 4px; font-weight: bold;}
+  
+  .btn-whatsapp {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto 0;
+    background: #25D366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .btn-whatsapp:hover { background: #128C7E; }
+
+  /* Ajuste para celulares pequeños */
+  @media (max-width: 650px) {
+    .grid { grid-template-columns: repeat(5, 1fr); }
+    .header-container { flex-direction: column; text-align: center; gap: 15px;}
+    .header-text { text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app-container">
+  <div class="header-container">
+    <img src="parlante.jpeg" alt="Cabina QSC K 8.2" class="header-img">
+    <div class="header-text">
+      <h1>Gran Rifa QSC K 8.2</h1>
+      <h2>Valor Puesto: $40.000</h2>
+      <p>🗓️ Juega: 10 de Abril<br>🎰 Lotería de Medellín (2 últimas cifras)</p>
+    </div>
+  </div>
+
+  <div class="instrucciones">Haz clic en un número libre para separarlo</div>
+  
+  <div class="grid" id="tablaRifa"></div>
+
+  <a href="https://wa.link/ua655h" target="_blank" class="btn-whatsapp">📲 Enviar Comprobante</a>
+</div>
+
+<script>
+  const contenedor = document.getElementById('tablaRifa');
+
+  async function cargarRifa() {
+    try {
+      const respuesta = await fetch('api.php');
+      const datosGuardados = await respuesta.json();
+      dibujarTabla(datosGuardados);
+    } catch (error) {
+      console.error("Error conectando:", error);
+      dibujarTabla({}); 
+    }
+  }
+
+  function dibujarTabla(datosGuardados) {
+    contenedor.innerHTML = ''; 
+    for(let i = 1; i <= 100; i++) {
+      let div = document.createElement('div');
+      div.className = 'numero';
+      let numTexto = i < 10 ? '0' + i : (i === 100 ? '100' : i.toString());
+
+      if(datosGuardados[numTexto]) {
+        div.classList.add('tachado');
+        div.innerHTML = `<span class="num-grande">${numTexto}</span><span class="nombre-comprador">${datosGuardados[numTexto]}</span>`;
+      } else {
+        div.innerText = numTexto;
+      }
+      
+      div.onclick = async function() {
+        if(!this.classList.contains('tachado')) {
+          let nombre = prompt("Has elegido el número " + numTexto + ". ¿Tu nombre?");
+          if(nombre && nombre.trim() !== "") {
+            let nombreCorto = nombre.substring(0,12);
+            let formData = new FormData();
+            formData.append('numero', i);
+            formData.append('comprador', nombreCorto);
+
+            const respuesta = await fetch('api.php', { method: 'POST', body: formData });
+            const resultado = await respuesta.text();
+
+            if(resultado.trim() === "exito") {
+              this.classList.add('tachado');
+              this.innerHTML = `<span class="num-grande">${numTexto}</span><span class="nombre-comprador">${nombreCorto}</span>`;
+              alert("¡Número " + numTexto + " separado!\n\nUsa el botón de WhatsApp para el pago.");
+            } else {
+              alert("Error al guardar.");
+            }
+          }
+        }
+      };
+      contenedor.appendChild(div);
+    }
+  }
+
+  cargarRifa();
+</script>
+
+</body>
+</html>
