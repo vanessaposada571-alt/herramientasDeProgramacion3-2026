@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanessa Posada | Portafolio Profesional</title>
+    <link rel="icon" type="image/png" href="img/img4.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="intro-overlay" id="introOverlay">
+        <div class="intro-card">
+            <div class="phone-mockup">
+                <div class="phone-screen">
+                    <div class="phone-content">
+                        <div class="phone-header">VP</div>
+                        <div class="phone-card">
+                            <h4>Vanessa Posada</h4>
+                            <p>Portafolio web profesional con proyectos reales y contactos.</p>
+                            <span>Hablemos →</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-text">
+                <span data-i18n-key="introWelcome">Bienvenida</span>
+                <p data-i18n-key="introText">Mi portafolio cobra vida desde tu celular</p>
+                <small data-i18n-key="introClick">Toca para continuar</small>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="logo">VP</div>
+        <ul>
+            <li><a href="#sobre-mi" data-i18n-key="navSobre">Sobre mí</a></li>
+            <li><a href="#proyectos" data-i18n-key="navProyectos">Proyectos</a></li>
+            <li><a href="#contacto" data-i18n-key="navContacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="sobre-mi" class="sobre-mi">
+        <div class="texto-presentacion">
+            <h1 data-i18n-key="heroTitle">Vanessa Posada</h1>
+            <p data-i18n-key="heroText">Estudiante de desarrollo de software con formación como técnica en sistemas. Soy una desarrolladora proactiva y organizada, enfocada en crear soluciones digitales eficientes con un diseño limpio y funcional. Mi objetivo es transformar ideas complejas en experiencias web excepcionales.</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="boton-contacto" data-i18n-key="contactButton">Hablemos →</a>
+                <button id="langToggle" class="lang-toggle">EN / ES</button>
+            </div>
+            <div class="social-links header-social-links">
+                <a href="https://www.linkedin.com/in/vanessa-posada-garzon-88b88a251/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/vane.227" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="30" alt="Instagram">
+                </a>
+                <a href="https://github.com/vanessaposada571-alt/herramientasDeProgramacion3-2026" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30" alt="GitHub">
+                </a>
+            </div>
+        </div>
+
+        <div class="foto-perfil">
+            <img src="img/img9.png" alt="Vanessa Posada">
+        </div>
+    </header>
+
+    <section id="habilidades" class="habilidades">
+        <h2 class="titulo-seccion" data-i18n-key="sectionSkills">Habilidades</h2>
+        <div class="habilidades-grid">
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">💻</span> <span data-i18n-key="skill1Title">Lenguajes de programación</span></h3>
+                <p data-i18n-key="skill1Text">C# y HTML con experiencia en estructuras limpias, componentes reutilizables y buenas prácticas de código.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">🗄️</span> <span data-i18n-key="skill2Title">Bases de datos</span></h3>
+                <p data-i18n-key="skill2Text">Trabajo con MySQL y MongoDB para el diseño, creación y mantenimiento de bases de datos relacionales y NoSQL eficientes y seguras.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">🌐</span> <span data-i18n-key="skill3Title">Desarrollo web</span></h3>
+                <p data-i18n-key="skill3Text">Creación de páginas modernas, adaptables y funcionales, con atención al diseño y la experiencia del usuario.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">🛠️</span> <span data-i18n-key="skill4Title">Soporte de hardware</span></h3>
+                <p data-i18n-key="skill4Text">Mantenimiento y reparación de computadores, diagnóstico de fallos y optimización de equipos.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">💼</span> <span data-i18n-key="skill5Title">Ventas consultivas y tecnología</span></h3>
+                <p data-i18n-key="skill5Text">Especializada en convertir especificaciones técnicas en experiencias de usuario y cierres de ventas efectivos.</p>
+            </div>
+        </div>
+    </section>
+
+    <main id="proyectos">
+        <h2 class="titulo-seccion" data-i18n-key="sectionProjects">Proyectos Seleccionados</h2>
+
+        <div class="grid-proyectos">
+            <div class="proyecto-card">
+                <a href="https://rifaqsc.infinityfree.me/" target="_blank" rel="noopener noreferrer" class="proyecto-link">
+                    <div class="contenedor-imagen">
+                        <div class="proyecto-badge">✔ Proyecto Realizado</div>
+                        <img src="img/img3.jpg" alt="Rifa Virtual Interactiva">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3 data-i18n-key="project1Title">Rifa Virtual Interactiva</h3>
+                        <p data-i18n-key="project1Desc">Plataforma web para la gestión de sorteos. Incluye visualización de números en tiempo real y una interfaz adaptada a cualquier dispositivo móvil.</p>
+                        <ul class="proyecto-tareas">
+                            <li data-i18n-key="project1Task1">Planificación clara y ordenada</li>
+                            <li data-i18n-key="project1Task2">Diseño moderno y responsive</li>
+                            <li data-i18n-key="project1Task3">Entrega puntual y funcional</li>
+                        </ul>
+                        <span class="link-texto" data-i18n-key="project1Link">Ver proyecto en vivo →</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="proyecto-card">
+                <div class="contenedor-imagen">
+                    <div class="proyecto-badge">✔ Proyecto Destacado</div>
+                    <img src="img/img7.jpg" alt="Próximamente">
+                </div>
+                <div class="proyecto-info">
+                    <h3 data-i18n-key="project2Title">Body Shop Medellin</h3>
+                    <p data-i18n-key="project2Desc">Tu destino final para el mejor streetwear. Encuentra las últimas tendencias en ropa urbana y los lanzamientos más buscados de calzado. Define tu propio ritmo, viste con actitud.</p>
+                    <ul class="proyecto-tareas">
+                        <li data-i18n-key="project2Task1">Organización y flujo de contenido</li>
+                        <li data-i18n-key="project2Task2">Imagen visual muy clara y atractiva</li>
+                        <li data-i18n-key="project2Task3">Propuesta alineada con marca urbana</li>
+                    </ul>
+                    <span class="link-texto" data-i18n-key="project2Link"></span>
+                </div>
+            </div>
+            <div class="proyecto-card">
+                <a href="https://github.com/vanessaposada571-alt/herramientas_de_programacion_2_2025/tree/develop" target="_blank" rel="noopener noreferrer" class="proyecto-link">
+                    <div class="contenedor-imagen">
+                        <div class="proyecto-badge">✔ Proyecto Realizado</div>
+                        <img src="img/img8.png" alt="Sistema contable y gestión de pacientes">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3 data-i18n-key="project3Title">Diseño de un sistema contable y usuario para cada rol</h3>
+                        <p data-i18n-key="project3Desc">Solución integral para control en administración de pacientes, gestión de seguro médico, recursos humanos y consulta de pacientes. Diseñado para garantizar eficiencia, seguridad y experiencia de usuario según cada rol.</p>
+                        <ul class="proyecto-tareas">
+                            <li data-i18n-key="project3Task1">Control administrativo de pacientes</li>
+                            <li data-i18n-key="project3Task2">Gestión de seguros médicos</li>
+                            <li data-i18n-key="project3Task3">Acceso diferenciado por rol</li>
+                        </ul>
+                        <span class="link-texto" data-i18n-key="project3Link">Ver repositorio →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <h2 class="titulo-seccion" data-i18n-key="sectionContact">Contacto</h2>
+        <p data-i18n-key="contactText">¿Tienes un proyecto en mente o buscas una nueva integrante para tu equipo? Completa el formulario y te responderé pronto.</p>
+
+        <form id="form-contacto" class="form-contacto">
+            <input type="text" id="nombre" name="user_name" placeholder="Tu nombre" required data-i18n-placeholder="inputName">
+            <input type="email" id="correo" name="user_email" placeholder="Tu correo electrónico" required data-i18n-placeholder="inputEmail">
+            <textarea id="mensaje" name="message" placeholder="¿En qué puedo ayudarte?" required rows="4" data-i18n-placeholder="inputMessage"></textarea>
+            <button type="submit" data-i18n-key="sendButton">Enviar Mensaje</button>
+        </form>
+
+        <p id="status"></p>
+
+        <p class="copyright">© 2026 — Vanessa Posada.</p>
+    </footer>
+
+    <a href="https://w.app/hpszfa" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="28" alt="WhatsApp">
+    </a>
+
+    <button class="comments-float" id="commentsToggle" aria-label="Abrir comentarios">💬</button>
+
+    <div class="comments-panel hide" id="commentsPanel" aria-live="polite">
+        <header>
+            <h3 data-i18n-key="commentsHeading">Comentarios</h3>
+            <button type="button" class="close-comments" id="closeComments">×</button>
+        </header>
+        <div class="comments-body">
+            <div id="commentsList" class="comments-list"></div>
+            <form id="commentForm" class="comments-form">
+                <input id="commentName" type="text" placeholder="Tu nombre" required data-i18n-placeholder="commentName">
+                <textarea id="commentText" rows="4" placeholder="Escribe tu comentario" required data-i18n-placeholder="commentText"></textarea>
+                <button type="submit" data-i18n-key="commentSubmit">Enviar comentario</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("cwrV0W5BMb56nLj2O");
+        })();
+
+        const form = document.getElementById('form-contacto');
+        const status = document.getElementById('status');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            emailjs.sendForm('service_qpne0dn', 'template_6qvh6tt', this)
+                .then(function () {
+                    status.style.color = "#28a745";
+                    status.textContent = "¡Mensaje enviado con éxito! 😊";
+                    form.reset();
+                }, function (error) {
+                    status.style.color = "#dc3545";
+                    status.textContent = "Error al enviar. Inténtalo de nuevo.";
+                });
+        });
+        const introOverlay = document.getElementById('introOverlay');
+        window.addEventListener('load', function () {
+            setTimeout(function () {
+                introOverlay.classList.add('hide');
+            }, 2400);
+        });
+
+        introOverlay.addEventListener('click', function () {
+            introOverlay.classList.add('hide');
+        });
+
+        const i18n = {
+            es: {
+                navSobre: 'Sobre mí',
+                navProyectos: 'Proyectos',
+                navContacto: 'Contacto',
+                heroTitle: 'Vanessa Posada',
+                heroText: 'Estudiante de desarrollo de software con formación como técnica en sistemas. Soy una desarrolladora proactiva y organizada, enfocada en crear soluciones digitales eficientes con un diseño limpio y funcional. Mi objetivo es transformar ideas complejas en experiencias web excepcionales.',
+                contactButton: 'Hablemos →',
+                sectionSkills: 'Habilidades',
+                sectionProjects: 'Proyectos Seleccionados',
+                sectionContact: 'Contacto',
+                contactText: '¿Tienes un proyecto en mente o buscas una nueva integrante para tu equipo? Completa el formulario y te responderé pronto.',
+                inputName: 'Tu nombre',
+                inputEmail: 'Tu correo electrónico',
+                inputMessage: '¿En qué puedo ayudarte?',
+                commentName: 'Tu nombre',
+                commentText: 'Escribe tu comentario',
+                commentSubmit: 'Enviar comentario',
+                commentsHeading: 'Comentarios',
+                commentsEmpty: 'Aún no hay comentarios. Sé el primero en dejar uno.',
+                sendButton: 'Enviar Mensaje',
+                introWelcome: 'Bienvenida',
+                introText: 'Mi portafolio cobra vida desde tu celular',
+                introClick: 'Toca para continuar',
+                skill1Title: 'Lenguajes de programación',
+                skill1Text: 'C# y HTML con experiencia en estructuras limpias, componentes reutilizables y buenas prácticas de código.',
+                skill2Title: 'Bases de datos',
+                skill2Text: 'Trabajo con MySQL y MongoDB para el diseño, creación y mantenimiento de bases de datos relacionales y NoSQL eficientes y seguras.',
+                skill3Title: 'Desarrollo web',
+                skill3Text: 'Creación de páginas modernas, adaptables y funcionales, con atención al diseño y la experiencia del usuario.',
+                skill4Title: 'Soporte de hardware',
+                skill4Text: 'Mantenimiento y reparación de computadores, diagnóstico de fallos y optimización de equipos.',
+                skill5Title: 'Ventas consultivas y tecnología',
+                skill5Text: 'Especializada en convertir especificaciones técnicas en experiencias de usuario y cierres de ventas efectivos.',
+                project1Title: 'Rifa Virtual Interactiva',
+                project1Desc: 'Plataforma web para la gestión de sorteos. Incluye visualización de números en tiempo real y una interfaz adaptada a cualquier dispositivo móvil.',
+                project1Task1: 'Planificación clara y ordenada',
+                project1Task2: 'Diseño moderno y responsive',
+                project1Task3: 'Entrega puntual y funcional',
+                project1Link: 'Ver proyecto en vivo →',
+                project2Title: 'Body Shop Medellin',
+                project2Desc: 'Tu destino final para el mejor streetwear. Encuentra las últimas tendencias en ropa urbana y los lanzamientos más buscados de calzado. Define tu propio ritmo, viste con actitud.',
+                project2Task1: 'Organización y flujo de contenido',
+                project2Task2: 'Imagen visual muy clara y atractiva',
+                project2Task3: 'Propuesta alineada con marca urbana',
+                project2Link: '',
+                project3Title: 'Diseño de un sistema contable y usuario para cada rol',
+                project3Desc: 'Solución integral para control en administración de pacientes, gestión de seguro médico, recursos humanos y consulta de pacientes. Diseñado para garantizar eficiencia, seguridad y experiencia de usuario según cada rol.',
+                project3Task1: 'Control administrativo de pacientes',
+                project3Task2: 'Gestión de seguros médicos',
+                project3Task3: 'Acceso diferenciado por rol',
+                project3Link: 'Ver repositorio →',
+                commentSubmit: 'Enviar comentario',
+                commentsHeading: 'Comentarios',
+                commentsEmpty: 'Aún no hay comentarios. Sé el primero en dejar uno.'
+            },
+            en: {
+                navSobre: 'About',
+                navProyectos: 'Projects',
+                navContacto: 'Contact',
+                heroTitle: 'Vanessa Posada',
+                heroText: 'Software development student with technical systems training. I am a proactive and organized developer, focused on creating efficient digital solutions with clean and functional design. My goal is to turn complex ideas into exceptional web experiences.',
+                contactButton: 'Let&apos;s talk →',
+                sectionSkills: 'Skills',
+                sectionProjects: 'Selected Projects',
+                sectionContact: 'Contact',
+                contactText: 'Do you have a project in mind or are you looking for a new team member? Fill out the form and I will reply soon.',
+                inputName: 'Your name',
+                inputEmail: 'Your email',
+                inputMessage: 'How can I help you?',
+                sendButton: 'Send Message',
+                introWelcome: 'Welcome',
+                introText: 'My portfolio comes alive on your phone',
+                introClick: 'Tap to continue',
+                skill1Title: 'Programming languages',
+                skill1Text: 'C# and HTML with experience in clean structures, reusable components and code best practices.',
+                skill2Title: 'Databases',
+                skill2Text: 'Working with MySQL and MongoDB for the design, creation and maintenance of efficient and secure relational and NoSQL databases.',
+                skill3Title: 'Web development',
+                skill3Text: 'Creating modern, adaptable and functional pages with attention to design and user experience.',
+                skill4Title: 'Hardware support',
+                skill4Text: 'Computer maintenance and repair, fault diagnosis and equipment optimization.',
+                skill5Title: 'Consultative sales and technology',
+                skill5Text: 'Specialized in turning technical specifications into user experiences and effective sales closures.',
+                project1Title: 'Interactive Virtual Raffle',
+                project1Desc: 'Web platform for raffle management. Includes real-time number display and an interface adapted to any mobile device.',
+                project1Task1: 'Clear and orderly planning',
+                project1Task2: 'Modern responsive design',
+                project1Task3: 'On-time, functional delivery',
+                project1Link: 'View live project →',
+                project2Title: 'Body Shop Medellin',
+                project2Desc: 'Your final destination for the best streetwear. Find the latest urban clothing trends and the most sought-after footwear launches. Define your own pace, dress with attitude.',
+                project2Task1: 'Content organization and flow',
+                project2Task2: 'Very clear and attractive visual image',
+                project2Task3: 'Proposal aligned with urban brand',
+                project2Link: '',
+                project3Title: 'Accounting system design with role-based access',
+                project3Desc: 'Comprehensive solution for patient administration control, health insurance management, human resources and patient consultation. Designed to ensure efficiency, security and user experience per role.',
+                project3Task1: 'Administrative patient control',
+                project3Task2: 'Health insurance management',
+                project3Task3: 'Role-based access control',
+                project3Link: 'View repository →',
+                commentSubmit: 'Send comment',
+                commentsHeading: 'Comments',
+                commentsEmpty: 'No comments yet. Be the first to add one.'
+            }
+        };
+
+        const langToggle = document.getElementById('langToggle');
+        let currentLang = 'es';
+
+        const translatePage = (lang) => {
+            document.querySelectorAll('[data-i18n-key]').forEach(el => {
+                const key = el.getAttribute('data-i18n-key');
+                if (i18n[lang] && i18n[lang][key]) {
+                    el.innerHTML = i18n[lang][key];
+                }
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if (i18n[lang] && i18n[lang][key]) {
+                    el.placeholder = i18n[lang][key];
+                }
+            });
+            document.documentElement.lang = lang;
+        };
+
+        langToggle.addEventListener('click', function () {
+            currentLang = currentLang === 'es' ? 'en' : 'es';
+            translatePage(currentLang);
+            renderComments();
+            langToggle.textContent = currentLang === 'es' ? 'EN / ES' : 'ES / EN';
+        });
+
+        translatePage(currentLang);
+
+        const commentsToggle = document.getElementById('commentsToggle');
+        const commentsPanel = document.getElementById('commentsPanel');
+        const closeComments = document.getElementById('closeComments');
+        const commentsList = document.getElementById('commentsList');
+        const commentForm = document.getElementById('commentForm');
+        const commentName = document.getElementById('commentName');
+        const commentText = document.getElementById('commentText');
+        const commentsKey = 'portfolioComments';
+
+        const formatDate = (timestamp) => {
+            const date = new Date(timestamp);
+            return date.toLocaleDateString(currentLang === 'es' ? 'es-ES' : 'en-US', {
+                day: 'numeric', month: 'short', year: 'numeric'
+            });
+        };
+
+        const loadComments = () => {
+            const stored = localStorage.getItem(commentsKey);
+            return stored ? JSON.parse(stored) : [];
+        };
+
+        const saveComments = (comments) => {
+            localStorage.setItem(commentsKey, JSON.stringify(comments));
+        };
+
+        const renderComments = () => {
+            const comments = loadComments();
+            commentsList.innerHTML = '';
+
+            if (!comments.length) {
+                const emptyText = i18n[currentLang] && i18n[currentLang].commentsEmpty ? i18n[currentLang].commentsEmpty : 'Aún no hay comentarios. Sé el primero en dejar uno.';
+                commentsList.innerHTML = `<div class="comments-empty">${emptyText}</div>`;
+                return;
+            }
+
+            comments.slice().reverse().forEach(comment => {
+                const card = document.createElement('div');
+                card.className = 'comment-card';
+                card.innerHTML = `<strong>${comment.name}</strong><p>${comment.text}</p><small>${formatDate(comment.date)}</small>`;
+                commentsList.appendChild(card);
+            });
+        };
+
+        commentsToggle.addEventListener('click', () => {
+            commentsPanel.classList.toggle('hide');
+        });
+
+        closeComments.addEventListener('click', () => {
+            commentsPanel.classList.add('hide');
+        });
+
+        commentForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const name = commentName.value.trim();
+            const text = commentText.value.trim();
+            if (!name || !text) return;
+
+            const comments = loadComments();
+            comments.push({ name, text, date: Date.now() });
+            saveComments(comments);
+            renderComments();
+            commentForm.reset();
+            commentsPanel.classList.remove('hide');
+        });
+
+        renderComments();
+    </script>
+</body>
+</html>

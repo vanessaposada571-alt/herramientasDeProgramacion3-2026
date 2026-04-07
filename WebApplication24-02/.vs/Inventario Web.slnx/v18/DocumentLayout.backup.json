@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\WebApplication24-02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\webapplication24-02\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|solutionrelative:pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\webapplication24-02\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\webapplication24-02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\webapplication24-02\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|solutionrelative:pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A969F3B7-392E-032F-7E75-6ADC9B524855}|Inventario Web.csproj|c:\\users\\usuario\\documents\\herramientasdeprogramacion3-2026\\webapplication24-02\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\WebApplication24-02\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -78,15 +78,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\WebApplication24-02\\Pages\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Categories\\Index.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\WebApplication24-02\\Pages\\Categories\\Index.cshtml",
               "RelativeToolTip": "Pages\\Categories\\Index.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-28T00:44:32.172Z"
+              "WhenOpened": "2026-02-28T00:44:32.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\WebApplication24-02\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\herramientasDeProgramacion3-2026\\WebApplication24-02\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-28T00:44:32.203Z",
               "EditorCaption": ""
